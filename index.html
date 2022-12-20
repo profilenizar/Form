@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <form method="get" name="forms" onsubmit="return validate()">    
+        <h2>Registration Form</h2>    
+                <label>First Name: </label>  <br>
+                    <input type="text" name="fname" placeholder="First Name"> <br>
+
+                <label>Last Name: </label>      <br>
+                    <input type="text" name="lname" placeholder="Last Name">    <br>
+
+                    <label>Address: </label>   <br>
+                    <input type="textarea" size="50" name="address" placeholder="Address"> <br>
+
+                <label>Gender: </label><br>
+                    <input type="radio" name="gender" value="male">Male    
+                    <input type="radio" name="gender" value="femele">Female    <br>
+
+                <label>Email Id: </label>  <br>
+                    <input type="text" name="email" placeholder="example@gmail.com">  <br>
+
+                <label>password </label>  <br>
+                    <input type="text" name="password">  <br>
+
+                <label>Mobile: </label><br>
+                    <input type="number" name="mobile">    <br>
+           
+            <label>Course: </label>
+                  
+                    <select name="course">    
+                        <option value="select course"> courses</option>    
+                        <option value="HTML">HTML</option>    
+                        <option value="CSS">CSS</option>    
+                        <option value="JavaScript">JAVASCRIPT</option>    
+                          
+                    </select>    <br><br><br>
+              
+                    <input type="submit" name="submit" value="Submit">  
+                    <input type="reset" name="reset" value="Reset">      
+    </form>    
+  
+
+    <script src="script.js"></script>
+</body>
+</html>
